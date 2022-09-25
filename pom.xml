@@ -12,7 +12,8 @@
 
     <modules>
         <module>gulimall-common</module>
-
+        <module>gulimall-gateway</module>
+        <module>gulimall-third-part</module>
         <module>gulimall-coupon</module>
         <module>gulimall-member</module>
         <module>gulimall-order</module>
@@ -20,7 +21,10 @@
         <module>gulimall-ware</module>
         <module>renren-fast</module>
         <module>renren-generator</module>
-
+        <module>gulimall-search</module>
+        <module>gulimall-auth-server</module>
+        <module>gulimall-cart</module>
+        <module>gulimall-seckill</module>
     </modules>
 
 </project>
