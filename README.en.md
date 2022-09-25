@@ -1,7 +1,7 @@
 # gulimall
 
 #### Description
-谷粒商城
+谷粒商城，第二遍
 
 #### Software Architecture
 Software architecture description
