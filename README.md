@@ -1,37 +1,31 @@
-# gulimall
+```
+谷粒商城是尚硅谷雷丰阳老师教学的一套B2C商城项目，项目由业务集群系统+后台管理系统构成，打通了分布式开发
+及全栈开发技能，包含前后分离全栈开发、Restful接口、数据校验、网关、注册发现、配置中心、熔断、限流、
+降级、链路追踪、性能监控、压力测试、系统预警、集群部署、持续集成、持续部署等
 
-#### 介绍
-谷粒商城
+项目结构：
+gulimall
+├── gulimall-common -- 工具类
+├── renren-generator -- 代码生成器（人人开源项目）
+├── renren-fast -- 后台管理系统（人人开源项目）
+├── renren-fast-vue -- 后台管理前端系统（人人开源项目）
+├── gulimall-auth-server -- 认证中心（社交登录、OAuth2.0、单点登录）
+├── gulimall-cart -- 购物车模块
+├── gulimall-coupon -- 优惠券模块
+├── gulimall-member -- 会员模块
+├── gulimall-gateway -- 网关模块
+├── gulimall-order -- 订单模块
+├── gulimall-product -- 商品模块
+├── gulimall-search -- 检索模块
+├── gulimall-seckill -- 秒杀模块
+├── gulimall-third-party -- 第三方模块（短信、OSS）
+└── gulimall-ware -- 仓储模块
 
-#### 软件架构
-软件架构说明
+问题汇总：
+    1、项目拉取后无法直接运行，请先根据《环境搭建.md》搭建好运行环境，例如nacos、redis、mysql、rabbitmq等等
+    2、查看笔记图片无法显示的问题，请将笔记与assets文件夹放在同一目录
+    3、sql脚本存放了建库建表语句
+    4、静态资源\html文件夹，是可以直接放入到nginx目录下的
+```
 
 
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
